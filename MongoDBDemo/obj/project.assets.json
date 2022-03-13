@@ -687,30 +687,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ethan\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/ethan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ethan\\source\\repos\\MongoDBDemoApp\\MongoDBDemo\\MongoDBDemo.csproj",
+      "projectUniqueName": "/Users/ethan/RiderProjects/MongoDBDemoApp/MongoDBDemo/MongoDBDemo.csproj",
       "projectName": "MongoDBDemo",
-      "projectPath": "C:\\Users\\Ethan\\source\\repos\\MongoDBDemoApp\\MongoDBDemo\\MongoDBDemo.csproj",
-      "packagesPath": "C:\\Users\\Ethan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ethan\\source\\repos\\MongoDBDemoApp\\MongoDBDemo\\obj\\",
+      "projectPath": "/Users/ethan/RiderProjects/MongoDBDemoApp/MongoDBDemo/MongoDBDemo.csproj",
+      "packagesPath": "/Users/ethan/.nuget/packages/",
+      "outputPath": "/Users/ethan/RiderProjects/MongoDBDemoApp/MongoDBDemo/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ethan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ethan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -750,8 +744,12 @@
             "version": "[3.0.1, 3.0.1]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
             "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -759,7 +757,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/ethan/.dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
