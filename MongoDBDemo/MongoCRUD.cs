@@ -28,7 +28,7 @@ namespace MongoDBDemo
             return collection.Find(new BsonDocument()).ToList();
         }
 
-        public T LoadRecordById<T>(string table, Guid id)
+        public T LoadRecordById<T>(string table, ObjectId id)
         {
             var collection = db.GetCollection<T>(table);
             var filter = Builders<T>.Filter.Eq("Id", id);
@@ -36,7 +36,14 @@ namespace MongoDBDemo
             return collection.Find(filter).First();
         }
 
-        public void UpsertRecord<T>(string table, Guid id, T record)
+        public T FindRecordByEcrNumber<T>(string table, string number)
+        {
+            var collection = db.GetCollection<T>(table);
+            var filter = Builders<T>.Filter.Eq("Number", number);
+            return collection.Find(filter).First();
+        }
+
+        public void UpsertRecord<T>(string table, ObjectId id, T record)
         {
             var collection = db.GetCollection<T>(table);
 
@@ -46,7 +53,7 @@ namespace MongoDBDemo
                 new ReplaceOptions { IsUpsert = true });
         }
 
-        public void DeleteRecord<T>(string table, Guid id)
+        public void DeleteRecord<T>(string table, ObjectId id)
         {
             var collection = db.GetCollection<T>(table);
             var filter = Builders<T>.Filter.Eq("Id", id);

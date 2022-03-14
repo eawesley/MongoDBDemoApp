@@ -687,29 +687,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/ethan/.nuget/packages/": {}
+    "C:\\Users\\Influx01\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ethan/RiderProjects/MongoDBDemoApp/MongoDBDemo/MongoDBDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Influx01\\RiderProjects\\MongoDBDemoApp\\MongoDBDemo\\MongoDBDemo.csproj",
       "projectName": "MongoDBDemo",
-      "projectPath": "/Users/ethan/RiderProjects/MongoDBDemoApp/MongoDBDemo/MongoDBDemo.csproj",
-      "packagesPath": "/Users/ethan/.nuget/packages/",
-      "outputPath": "/Users/ethan/RiderProjects/MongoDBDemoApp/MongoDBDemo/obj/",
+      "projectPath": "C:\\Users\\Influx01\\RiderProjects\\MongoDBDemoApp\\MongoDBDemo\\MongoDBDemo.csproj",
+      "packagesPath": "C:\\Users\\Influx01\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Influx01\\RiderProjects\\MongoDBDemoApp\\MongoDBDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ethan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Influx01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "targetAlias": "netcoreapp3.0",
           "projectReferences": {}
         }
       },
@@ -721,7 +722,6 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "targetAlias": "netcoreapp3.0",
         "dependencies": {
           "MongoDB.Driver": {
             "target": "Package",
@@ -744,11 +744,15 @@
             "version": "[3.0.1, 3.0.1]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[3.0.3, 3.0.3]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
             "version": "[3.0.0, 3.0.0]"
           }
         ],
@@ -757,7 +761,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/ethan/.dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.417\\RuntimeIdentifierGraph.json"
       }
     }
   }

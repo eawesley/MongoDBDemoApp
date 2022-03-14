@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/ethan/.dotnet/store/|arch|/|tfm|",
-      "/Users/ethan/.nuget/packages"
+      "C:\\Users\\Influx01\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Influx01\\.nuget\\packages"
     ]
   }
 }
